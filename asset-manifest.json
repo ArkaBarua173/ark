@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/arka-barua/static/css/main.c2979bfc.css",
+    "main.js": "/arka-barua/static/js/main.4286ab55.js",
+    "static/js/787.b92b1c7f.chunk.js": "/arka-barua/static/js/787.b92b1c7f.chunk.js",
+    "index.html": "/arka-barua/index.html",
+    "main.c2979bfc.css.map": "/arka-barua/static/css/main.c2979bfc.css.map",
+    "main.4286ab55.js.map": "/arka-barua/static/js/main.4286ab55.js.map",
+    "787.b92b1c7f.chunk.js.map": "/arka-barua/static/js/787.b92b1c7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2979bfc.css",
+    "static/js/main.4286ab55.js"
+  ]
+}
