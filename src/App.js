@@ -20,9 +20,16 @@ function App() {
             contribute to creative solutions and pick up valuable data science
             knowledge.
           </p>
-          <button className="mt-5 bg-transparent border-2 border-blue-500 text-blue-500 py-3 px-6 rounded-md shadow">
-            Download Resume
-          </button>
+          <a
+            href={"./assets/ArkaBarua-CV.pdf"}
+            download="ArkaBarua-CV"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="mt-5 bg-transparent border-2 border-blue-500 text-blue-500 py-3 px-6 rounded-md shadow">
+              Download Resume
+            </button>
+          </a>
         </div>
       </div>
     </div>
