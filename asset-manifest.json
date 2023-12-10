@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/arka-barua/static/css/main.c2979bfc.css",
-    "main.js": "/arka-barua/static/js/main.fee4d20c.js",
+    "main.js": "/arka-barua/static/js/main.40a9bbc8.js",
     "static/js/787.b92b1c7f.chunk.js": "/arka-barua/static/js/787.b92b1c7f.chunk.js",
+    "static/media/ArkaBarua-CV.pdf": "/arka-barua/static/media/ArkaBarua-CV.a4c6fbae28817733cace.pdf",
     "index.html": "/arka-barua/index.html",
     "main.c2979bfc.css.map": "/arka-barua/static/css/main.c2979bfc.css.map",
-    "main.fee4d20c.js.map": "/arka-barua/static/js/main.fee4d20c.js.map",
+    "main.40a9bbc8.js.map": "/arka-barua/static/js/main.40a9bbc8.js.map",
     "787.b92b1c7f.chunk.js.map": "/arka-barua/static/js/787.b92b1c7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2979bfc.css",
-    "static/js/main.fee4d20c.js"
+    "static/js/main.40a9bbc8.js"
   ]
 }
