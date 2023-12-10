@@ -1,3 +1,5 @@
+import resume from "./assets/ArkaBarua-CV.pdf";
+
 function App() {
   return (
     <div className="bg-slate-900 h-screen">
@@ -21,7 +23,7 @@ function App() {
             knowledge.
           </p>
           <a
-            href={"./assets/ArkaBarua-CV.pdf"}
+            href={resume}
             download="ArkaBarua-CV"
             target="_blank"
             rel="noopener noreferrer"
