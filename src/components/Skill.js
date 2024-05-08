@@ -26,7 +26,7 @@ export default function Skill() {
       <ul className="flex">
         {language_items.map((item, index) => (
           <li key={index} className="pr-4 py-4">
-            <span className="text-green-700 font-extrabold mr-2">&#10003;</span>
+            <span className="text-green-400 font-extrabold mr-2">&#10003;</span>
             {item.text}
           </li>
         ))}
@@ -36,7 +36,7 @@ export default function Skill() {
       <ul className="flex">
         {package_items.map((item, index) => (
           <li key={index} className="pr-4 py-4">
-            <span className="text-green-700 font-extrabold mr-2">&#10003;</span>
+            <span className="text-green-400 font-extrabold mr-2">&#10003;</span>
             {item.text}
           </li>
         ))}
@@ -46,7 +46,7 @@ export default function Skill() {
       <ul className="flex">
         {viz_items.map((item, index) => (
           <li key={index} className="pr-4 py-4">
-            <span className="text-green-700 font-extrabold mr-2">&#10003;</span>
+            <span className="text-green-400 font-extrabold mr-2">&#10003;</span>
             {item.text}
           </li>
         ))}
