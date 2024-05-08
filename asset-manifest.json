@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/arka-barua/static/css/main.c07c1167.css",
-    "main.js": "/arka-barua/static/js/main.d63c9a16.js",
+    "main.css": "/arka-barua/static/css/main.cd3883af.css",
+    "main.js": "/arka-barua/static/js/main.d22d6841.js",
     "static/js/787.b92b1c7f.chunk.js": "/arka-barua/static/js/787.b92b1c7f.chunk.js",
     "static/media/ArkaBarua-CV.pdf": "/arka-barua/static/media/ArkaBarua-CV.a4c6fbae28817733cace.pdf",
     "static/media/GitHub_Logo_White.png": "/arka-barua/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
     "static/media/github.svg": "/arka-barua/static/media/github.19cc3dd59875806a6cba3ec06fe674ab.svg",
     "static/media/kaggle-icon.svg": "/arka-barua/static/media/kaggle-icon.c40d4813339513a879322ea26dba0ec6.svg",
     "index.html": "/arka-barua/index.html",
-    "main.c07c1167.css.map": "/arka-barua/static/css/main.c07c1167.css.map",
-    "main.d63c9a16.js.map": "/arka-barua/static/js/main.d63c9a16.js.map",
+    "main.cd3883af.css.map": "/arka-barua/static/css/main.cd3883af.css.map",
+    "main.d22d6841.js.map": "/arka-barua/static/js/main.d22d6841.js.map",
     "787.b92b1c7f.chunk.js.map": "/arka-barua/static/js/787.b92b1c7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c07c1167.css",
-    "static/js/main.d63c9a16.js"
+    "static/css/main.cd3883af.css",
+    "static/js/main.d22d6841.js"
   ]
 }
