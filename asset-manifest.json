@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd3883af.css",
-    "main.js": "/static/js/main.a1b8335b.js",
-    "static/js/787.b92b1c7f.chunk.js": "/static/js/787.b92b1c7f.chunk.js",
-    "static/media/ArkaBarua-CV.pdf": "/static/media/ArkaBarua-CV.a4c6fbae28817733cace.pdf",
-    "static/media/GitHub_Logo_White.png": "/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
-    "static/media/github.svg": "/static/media/github.19cc3dd59875806a6cba3ec06fe674ab.svg",
-    "static/media/kaggle-icon.svg": "/static/media/kaggle-icon.c40d4813339513a879322ea26dba0ec6.svg",
-    "index.html": "/index.html",
-    "main.cd3883af.css.map": "/static/css/main.cd3883af.css.map",
-    "main.a1b8335b.js.map": "/static/js/main.a1b8335b.js.map",
-    "787.b92b1c7f.chunk.js.map": "/static/js/787.b92b1c7f.chunk.js.map"
+    "main.css": "/ark/static/css/main.cd3883af.css",
+    "main.js": "/ark/static/js/main.b76797bb.js",
+    "static/js/787.b92b1c7f.chunk.js": "/ark/static/js/787.b92b1c7f.chunk.js",
+    "static/media/ArkaBarua-CV.pdf": "/ark/static/media/ArkaBarua-CV.a4c6fbae28817733cace.pdf",
+    "static/media/GitHub_Logo_White.png": "/ark/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
+    "static/media/github.svg": "/ark/static/media/github.19cc3dd59875806a6cba3ec06fe674ab.svg",
+    "static/media/kaggle-icon.svg": "/ark/static/media/kaggle-icon.c40d4813339513a879322ea26dba0ec6.svg",
+    "index.html": "/ark/index.html",
+    "main.cd3883af.css.map": "/ark/static/css/main.cd3883af.css.map",
+    "main.b76797bb.js.map": "/ark/static/js/main.b76797bb.js.map",
+    "787.b92b1c7f.chunk.js.map": "/ark/static/js/787.b92b1c7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd3883af.css",
-    "static/js/main.a1b8335b.js"
+    "static/js/main.b76797bb.js"
   ]
 }
