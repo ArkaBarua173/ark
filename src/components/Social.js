@@ -8,7 +8,11 @@ export default function SocialLinks() {
       <h2 className="font-bold text-2xl mb-10">🖇️ Profile Links</h2>
       <ul className="flex w-64 mx-auto align-middle justify-between">
         <li>
-          <a href="https://github.com/ArkaBarua173">
+          <a
+            href="https://github.com/ArkaBarua173"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={github}
               className="w-auto h-6 object-cover"
@@ -17,7 +21,11 @@ export default function SocialLinks() {
           </a>
         </li>
         <li>
-          <a href="https://www.kaggle.com/arkabarua173">
+          <a
+            href="https://www.kaggle.com/arkabarua173"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={kaggle}
               className="w-[60px] h-6 object-cover"
@@ -26,7 +34,11 @@ export default function SocialLinks() {
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/arka-barua/">
+          <a
+            href="https://www.linkedin.com/in/arka-barua/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={LinkedIn}
               className="w-[80px] h-5 object-cover"
