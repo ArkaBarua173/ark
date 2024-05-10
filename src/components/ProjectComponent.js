@@ -8,25 +8,29 @@ export default function ProjectComponent({
   kaggle,
 }) {
   return (
-    <div>
+    <div className="text-wrap">
       <h1 className="text-xl font-bold text-white mb-4">{title}</h1>
       <div className="mb-4">{description}</div>
-      <div className="flex align-text-bottom">
-        <span>
-          <img src={githubIcon} alt="github" className="w-4 mr-2 mt-1" />
-        </span>{" "}
+      <div className="flex gap-3">
+        <span className="font-bold">Links:</span>
         <a href={github} className="hover:underline text-blue-300">
-          {github}
+          <img src={githubIcon} alt="github" className="w-4 mt-1" />
+        </a>{" "}
+        |
+        <a href={kaggle} className="hover:underline text-blue-300">
+          <img src={kaggleIcon} alt="kaggle" className="w-4 mt-1" />
+        </a>
+      </div>
+      {/* <div className="flex align-text-bottom">
+        <a href={github} className="hover:underline text-blue-300">
+          <img src={githubIcon} alt="github" className="w-4 mr-2 mt-1" />
         </a>
       </div>
       <div className="flex align-text-bottom">
-        <span>
-          <img src={kaggleIcon} alt="kaggle" className="w-4 mr-2 mt-1" />
-        </span>
         <a href={kaggle} className="hover:underline text-blue-300">
-          {kaggle}
+          <img src={kaggleIcon} alt="kaggle" className="w-4 mr-2 mt-1" />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }

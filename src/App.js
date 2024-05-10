@@ -6,13 +6,13 @@ import SocialLinks from "./components/Social";
 
 function App() {
   return (
-    <div className="bg-slate-900 min-h-screen">
-      <div className="max-w-5xl mx-auto">
+    <div className="bg-slate-900 min-h-screen min-w-screen">
+      <div className="container mx-auto">
         <h1 className="text-3xl text-center text-white font-bold pt-20 pb-10">
           Welcome
         </h1>
-        <main className="flex justify-between align-middle">
-          <section className="mt-10 p-10 bg-slate-950 rounded-md border-4 shadow-lg border-gray-200">
+        <main className="lg:flex lg:gap-4 lg:justify-between">
+          <section className="mt-10 p-10 bg-slate-950 rounded-md border-4 shadow-lg border-gray-200 md:min-w-max">
             <p className="text-gray-100 font-semibold">Hi, I am</p>
             <h1 className="text-7xl text-gray-200 tracking-wide font-bold">
               Arka Barua

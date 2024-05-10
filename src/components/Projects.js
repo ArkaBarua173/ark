@@ -2,18 +2,18 @@ import ProjectComponent from "./ProjectComponent";
 
 export default function Projects() {
   return (
-    <div>
+    <div className="px-8">
       <h1 className="pb-10 text-3xl tracking-wide font-bold text-center text-gray-50">
         🔬 My Projects
       </h1>
       <ol className="text-gray-300 list-decimal marker:text-xl marker:font-bold">
         <li className="pb-8 marker:text-xl marker:font-bold">
           <ProjectComponent
-            title={"🏦 Binary Classification with Bank Churn Dataset"}
-            description="This project aims to predict the probabilities of exiting the
-            bank. XGBoost is used for this dataset. The model evaluated with
-            Accuracy, Precision, F1 scroe, Recall and AUC_ROC score. SHAP is
-            used to understand the model."
+            title={"🏦 Binary Classification with an Imbalanced Dataset"}
+            description="This project aims to predict the probabilities of customers exiting the bank.
+             XGBoost is used to address the imbalance by increasing the weights of the minority class.
+             The model was evaluated using accuracy, precision, F1 score, recall, and AUC-ROC score.
+             SHAP (Shapley Additive Explanations) is used to understand the model."
             github={"https://github.com/ArkaBarua173/Bank-churn-classification"}
             kaggle={
               "https://www.kaggle.com/code/arkabarua173/bank-churn-xgboost-roc-89-shap"
@@ -23,13 +23,11 @@ export default function Projects() {
 
         <li className="pb-8 marker:text-2xl marker:font-bold">
           <ProjectComponent
-            title={"🐚 Abalage Age Regression Problem with Ensemble Method"}
-            description="This project aims to Predicting the age of Abalone. 3 gradient
-            boosting model XGBRegressor CatBoostRegressor LGBMRegressor is
-            trained. Voting Regressor ( XGBRegressor + CatBoostRegressor +
-            LGBMRegressor ) with soft voting is trained as the final model.
-            The main evaluation metric used is Root Mean Squared Logarithmic
-            Error."
+            title={"🐚 Abalone Age Regression with Ensemble Method"}
+            description="This project aims to predict the age of Abalone.
+             XGBRegressor, CatBoostRegressor and LGBMRegressor are trained.
+             A Voting Regressor ( XGBRegressor + CatBoostRegressor + LGBMRegressor ) with soft voting is trained as the final model.
+             The primary evaluation metric used is Root Mean Squared Logarithmic Error."
             github={"https://github.com/ArkaBarua173/Abalone-Age-Regression"}
             kaggle={
               "https://www.kaggle.com/code/arkabarua173/regression-of-abalone-age"
@@ -40,7 +38,9 @@ export default function Projects() {
         <li className="pb-8 marker:text-2xl marker:font-bold">
           <ProjectComponent
             title={"☕ Clustering of Coffee quality"}
-            description="This project aims to Clustering of coffee quality based on similarity with PCA and K-means. Preprocessing methods for the dataset involve handling missing values with SimpleImputer and dimensionality reduction using PCA, with three components accounting for 93% of the variation. K-means clustering is then used, with the elbow technique determining that 6 clusters are the ideal number."
+            description="This project aims to cluster coffee quality based on similarity with PCA and K-means.
+             A dimensionality reduction technique PCA is used for this dataset while keeping important patterns and trends.
+             K-means clustering is then used, with the elbow technique determining that 6 clusters are the ideal number."
             github={
               "https://github.com/ArkaBarua173/Clustering-of-coffee-quality"
             }
