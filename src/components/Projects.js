@@ -21,7 +21,7 @@ export default function Projects() {
           />
         </li>
 
-        <li className="pb-8 marker:text-2xl marker:font-bold">
+        <li className="pb-8 marker:text-xl marker:font-bold">
           <ProjectComponent
             title={"🐚 Abalone Age Regression with Ensemble Method"}
             description="This project aims to predict the age of Abalone.
@@ -35,7 +35,7 @@ export default function Projects() {
           />
         </li>
 
-        <li className="pb-8 marker:text-2xl marker:font-bold">
+        <li className="pb-8 marker:text-xl marker:font-bold">
           <ProjectComponent
             title={"☕ Clustering of Coffee quality"}
             description="This project aims to cluster coffee quality based on similarity with PCA and K-means.
@@ -50,7 +50,7 @@ export default function Projects() {
           />
         </li>
 
-        <li className="pb-8 marker:text-2xl marker:font-bold">
+        <li className="pb-8 marker:text-xl marker:font-bold">
           <ProjectComponent
             title={"🚗 Vehicle Sales Analysis"}
             description="This project investigates into key insights such as average
