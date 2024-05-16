@@ -18,8 +18,8 @@ function App() {
               Arka Barua
             </h1>
             <h2 className="text-2xl text-gray-400 mx-auto max-w-[35ch] mt-3 font-semibold">
-              Software developer primarily focusing on Machine learning and Deep
-              learning
+              Seeking an internship as a Machine Learning Engineer with a strong
+              focus on machine learning and advanced statistical analysis.
             </h2>
             <div className="flex gap-4">
               <a
