@@ -12,12 +12,12 @@ function App() {
           Welcome
         </h1>
         <main className="lg:flex lg:gap-4 lg:justify-between">
-          <section className="mt-10 p-10 bg-slate-950 rounded-md border-4 shadow-lg border-gray-200 md:min-w-max">
+          <section className="mt-10 p-8 bg-slate-950 rounded-md border-4 shadow-lg border-gray-200 md:min-w-max">
             <p className="text-gray-100 font-semibold">Hi, I am</p>
             <h1 className="text-7xl text-gray-200 tracking-wide font-bold">
               Arka Barua
             </h1>
-            <h2 className="text-2xl text-gray-400 mx-auto max-w-[35ch] mt-3 font-semibold">
+            <h2 className="text-[15pt] text-gray-300 mx-auto max-w-[40ch] mt-3 font-semibold">
               Seeking an internship as a Machine Learning Engineer with a strong
               focus on machine learning and advanced statistical analysis.
             </h2>
