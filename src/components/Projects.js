@@ -9,6 +9,18 @@ export default function Projects() {
       <ol className="text-gray-300 list-decimal marker:text-xl marker:font-bold">
         <li className="pb-8 marker:text-xl marker:font-bold">
           <ProjectComponent
+            title={"🚲 Bike Sales Performance Analysis with SQL and Power BI"}
+            description="This project leverages SQL and Power BI to analyze and visualize bike sales data. It focuses on key metrics such as order status distribution, average processing times, and sales trends over time. The analysis provides insights into customer purchasing behavior, product performance, and inventory management, helping to optimize sales strategies and operational efficiency."
+            github={
+              "https://github.com/ArkaBarua173/Bike-Store-Analytic-Dashboard"
+            }
+            kaggle={
+              "https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database/data"
+            }
+          />
+        </li>
+        <li className="pb-8 marker:text-xl marker:font-bold">
+          <ProjectComponent
             title={"🏦 Binary Classification with an Imbalanced Dataset"}
             description="This project aims to predict the probabilities of customers exiting the bank.
              XGBoost is used to address the imbalance by increasing the weights of the minority class.
