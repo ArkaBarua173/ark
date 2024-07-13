@@ -9,6 +9,19 @@ export default function Projects() {
       <ol className="text-gray-300 list-decimal marker:text-xl marker:font-bold">
         <li className="pb-8 marker:text-xl marker:font-bold">
           <ProjectComponent
+            title={"🛒 Interactive Sales Dashboard for an E-commerce Platform"}
+            description="In this project, I visualized key e-commerce insights using Tableau to drive data-driven decisions. The dashboard includes KPIs, sales by category, payment distribution, regional sales, and city breakdowns, showcasing my learnings in Tableau's powerful data visualization capabilities."
+            github={
+              "https://github.com/ArkaBarua173/Tableau-Sales-Dashboard-for-Olist"
+            }
+            tableau={
+              "https://public.tableau.com/app/profile/arka.barua/viz/Olist_17168139372900/OlistSummary"
+            }
+          />
+        </li>
+
+        <li className="pb-8 marker:text-xl marker:font-bold">
+          <ProjectComponent
             title={"🚲 Bike Sales Performance Analysis with SQL and Power BI"}
             description="This project leverages SQL and Power BI to analyze and visualize bike sales data. It focuses on key metrics such as order status distribution, average processing times, and sales trends over time. The analysis provides insights into customer purchasing behavior, product performance, and inventory management, helping to optimize sales strategies and operational efficiency."
             github={
@@ -58,21 +71,6 @@ export default function Projects() {
             }
             kaggle={
               "https://www.kaggle.com/code/arkabarua173/clustering-of-coffee-quality-k-means-pca"
-            }
-          />
-        </li>
-
-        <li className="pb-8 marker:text-xl marker:font-bold">
-          <ProjectComponent
-            title={"🚗 Vehicle Sales Analysis"}
-            description="This project investigates into key insights such as average
-            selling prices across car brands and models, comparison of
-            automatic and manual transmission cars, examination of color
-            distribution's impact on prices, analysis of car condition
-            ratings, and the effect of odometer readings on selling prices."
-            github={"https://github.com/ArkaBarua173/Vehicle-Sales-Analysis"}
-            kaggle={
-              "https://www.kaggle.com/code/arkabarua173/vehicle-sales-analysis"
             }
           />
         </li>

@@ -15,7 +15,7 @@ export default function Skill() {
   const viz_items = [
     { text: "Matplotlib" },
     { text: "Seaborn" },
-    { text: "Plotly" },
+    { text: "Tableau" },
     { text: "PowerBI" },
   ];
 
