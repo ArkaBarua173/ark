@@ -9,26 +9,24 @@ export default function Projects() {
       <ol className="text-gray-300 list-decimal marker:text-xl marker:font-bold">
         <li className="pb-8 marker:text-xl marker:font-bold">
           <ProjectComponent
-            title={"🛒 Interactive Sales Dashboard for an E-commerce Platform"}
-            description="In this project, I visualized key e-commerce insights using Tableau to drive data-driven decisions. The dashboard includes KPIs, sales by category, payment distribution, regional sales, and city breakdowns, showcasing my learnings in Tableau's powerful data visualization capabilities."
-            github={
-              "https://github.com/ArkaBarua173/Tableau-Sales-Dashboard-for-Olist"
+            title={
+              "🚢 Shipping and Logistics Data Analysis Report Using Power BI"
             }
-            tableau={
-              "https://public.tableau.com/app/profile/arka.barua/viz/Olist_17168139372900/OlistSummary"
+            description="This project utilizes Power BI to visualize shipping and logistics data, focusing on KPIs like shipment value, freight cost per KG, and on-time delivery rate. It provides insights into freight efficiency by analyzing shipment modes and comparing shipment value and freight cost by product group."
+            github={
+              "https://github.com/ArkaBarua173/Shipping-and-Logistics-Analysis"
             }
           />
         </li>
 
         <li className="pb-8 marker:text-xl marker:font-bold">
           <ProjectComponent
-            title={"🚲 Bike Sales Performance Analysis with SQL and Power BI"}
-            description="This project leverages SQL and Power BI to analyze and visualize bike sales data. It focuses on key metrics such as order status distribution, average processing times, and sales trends over time. The analysis provides insights into customer purchasing behavior, product performance, and inventory management, helping to optimize sales strategies and operational efficiency."
-            github={
-              "https://github.com/ArkaBarua173/Bike-Store-Analytic-Dashboard"
+            title={
+              "💲 Financial Performance Report with Detailed KPI Breakdowns"
             }
-            kaggle={
-              "https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database/data"
+            description="This financial performance report presents essential metrics, including Revenue, Gross Profit, Expenses, and Net Income, offering a clear view of overall financial health. Provides detailed KPI breakdowns, analyzing trends by division and account type, and comparing year-over-year performance for strategic insights."
+            github={
+              "https://github.com/ArkaBarua173/Financial-Performance-Report"
             }
           />
         </li>
@@ -40,9 +38,6 @@ export default function Projects() {
              The model was evaluated using accuracy, precision, F1 score, recall, and AUC-ROC score.
              SHAP (Shapley Additive Explanations) is used to understand the model."
             github={"https://github.com/ArkaBarua173/Bank-churn-classification"}
-            kaggle={
-              "https://www.kaggle.com/code/arkabarua173/bank-churn-xgboost-roc-89-shap"
-            }
           />
         </li>
 
@@ -54,9 +49,6 @@ export default function Projects() {
              A Voting Regressor ( XGBRegressor + CatBoostRegressor + LGBMRegressor ) with soft voting is trained as the final model.
              The primary evaluation metric used is Root Mean Squared Logarithmic Error."
             github={"https://github.com/ArkaBarua173/Abalone-Age-Regression"}
-            kaggle={
-              "https://www.kaggle.com/code/arkabarua173/regression-of-abalone-age"
-            }
           />
         </li>
 
@@ -68,9 +60,6 @@ export default function Projects() {
              K-means clustering is then used, with the elbow technique determining that 6 clusters are the ideal number."
             github={
               "https://github.com/ArkaBarua173/Clustering-of-coffee-quality"
-            }
-            kaggle={
-              "https://www.kaggle.com/code/arkabarua173/clustering-of-coffee-quality-k-means-pca"
             }
           />
         </li>

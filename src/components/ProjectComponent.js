@@ -26,7 +26,6 @@ export default function ProjectComponent({
         >
           <img src={githubIcon} alt="github" className="w-4 mt-1" />
         </a>{" "}
-        |
         {kaggle && (
           <a
             href={kaggle}
